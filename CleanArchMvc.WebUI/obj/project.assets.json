@@ -1,0 +1,135 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "CleanArchMvc.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CleanArchMvc.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CleanArchMvc.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CleanArchMvc.Application.dll": {}
+        }
+      },
+      "CleanArchMvc.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CleanArchMvc.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CleanArchMvc.Domain.dll": {}
+        }
+      },
+      "CleanArchMvc.Infra.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CleanArchMvc.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CleanArchMvc.Infra.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CleanArchMvc.Infra.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CleanArchMvc.Application/1.0.0": {
+      "type": "project",
+      "path": "../CleanArchMvc.Application/CleanArchMvc.Application.csproj",
+      "msbuildProject": "../CleanArchMvc.Application/CleanArchMvc.Application.csproj"
+    },
+    "CleanArchMvc.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CleanArchMvc.Domain/CleanArchMvc.Domain.csproj",
+      "msbuildProject": "../CleanArchMvc.Domain/CleanArchMvc.Domain.csproj"
+    },
+    "CleanArchMvc.Infra.Data/1.0.0": {
+      "type": "project",
+      "path": "../CleanArchMvc.Infra.Data/CleanArchMvc.Infra.Data.csproj",
+      "msbuildProject": "../CleanArchMvc.Infra.Data/CleanArchMvc.Infra.Data.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "CleanArchMvc.Application >= 1.0.0",
+      "CleanArchMvc.Domain >= 1.0.0",
+      "CleanArchMvc.Infra.Data >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/yuri/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.WebUI/CleanArchMvc.WebUI.csproj",
+      "projectName": "CleanArchMvc.WebUI",
+      "projectPath": "/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.WebUI/CleanArchMvc.WebUI.csproj",
+      "packagesPath": "/home/yuri/.nuget/packages/",
+      "outputPath": "/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.WebUI/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/yuri/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Application/CleanArchMvc.Application.csproj": {
+              "projectPath": "/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Application/CleanArchMvc.Application.csproj"
+            },
+            "/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Domain/CleanArchMvc.Domain.csproj": {
+              "projectPath": "/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Domain/CleanArchMvc.Domain.csproj"
+            },
+            "/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Infra.Data/CleanArchMvc.Infra.Data.csproj": {
+              "projectPath": "/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Infra.Data/CleanArchMvc.Infra.Data.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

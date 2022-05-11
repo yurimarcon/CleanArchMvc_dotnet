@@ -1,0 +1,15 @@
+/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Application/bin/Debug/net6.0/CleanArchMvc.Application.deps.json
+/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Application/bin/Debug/net6.0/CleanArchMvc.Application.dll
+/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Application/bin/Debug/net6.0/CleanArchMvc.Application.pdb
+/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Application/bin/Debug/net6.0/CleanArchMvc.Domain.dll
+/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Application/bin/Debug/net6.0/CleanArchMvc.Domain.pdb
+/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Application/obj/Debug/net6.0/CleanArchMvc.Application.csproj.AssemblyReference.cache
+/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Application/obj/Debug/net6.0/CleanArchMvc.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Application/obj/Debug/net6.0/CleanArchMvc.Application.AssemblyInfoInputs.cache
+/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Application/obj/Debug/net6.0/CleanArchMvc.Application.AssemblyInfo.cs
+/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Application/obj/Debug/net6.0/CleanArchMvc.Application.csproj.CoreCompileInputs.cache
+/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Application/obj/Debug/net6.0/CleanArchMvc.Application.csproj.CopyComplete
+/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Application/obj/Debug/net6.0/CleanArchMvc.Application.dll
+/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Application/obj/Debug/net6.0/refint/CleanArchMvc.Application.dll
+/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Application/obj/Debug/net6.0/CleanArchMvc.Application.pdb
+/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Application/obj/Debug/net6.0/ref/CleanArchMvc.Application.dll
