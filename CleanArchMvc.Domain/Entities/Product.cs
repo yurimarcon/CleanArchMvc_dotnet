@@ -42,7 +42,7 @@ namespace CleanArchMvc.Domain.Entities
                 "Product price must be greater than 0");
             DomainExceptionValidation.When(stock < 0, 
                 "Product stock must be greater than 0");
-            DomainExceptionValidation.When(image.Length > 50, 
+            DomainExceptionValidation.When(image?.Length > 250, 
                 "Product image name must be less than 50 characters");
 
             Name = name;

@@ -13,3 +13,5 @@
 /home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Infra.Data/obj/Debug/net6.0/refint/CleanArchMvc.Infra.Data.dll
 /home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Infra.Data/obj/Debug/net6.0/CleanArchMvc.Infra.Data.pdb
 /home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Infra.Data/obj/Debug/net6.0/ref/CleanArchMvc.Infra.Data.dll
+/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Infra.Data/bin/Debug/net6.0/CleanArchMvc.Infra.Data.runtimeconfig.json
+/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Infra.Data/obj/Debug/net6.0/CleanArchMvc.Infra.Data.genruntimeconfig.cache
