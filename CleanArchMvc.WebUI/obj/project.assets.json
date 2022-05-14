@@ -1518,6 +1518,21 @@
         "runtime": {
           "bin/placeholder/CleanArchMvc.Infra.Data.dll": {}
         }
+      },
+      "CleanArchMvc.Infra.IoC/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CleanArchMvc.Application": "1.0.0",
+          "CleanArchMvc.Domain": "1.0.0",
+          "CleanArchMvc.Infra.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CleanArchMvc.Infra.IoC.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CleanArchMvc.Infra.IoC.dll": {}
+        }
       }
     }
   },
@@ -5745,13 +5760,16 @@
       "type": "project",
       "path": "../CleanArchMvc.Infra.Data/CleanArchMvc.Infra.Data.csproj",
       "msbuildProject": "../CleanArchMvc.Infra.Data/CleanArchMvc.Infra.Data.csproj"
+    },
+    "CleanArchMvc.Infra.IoC/1.0.0": {
+      "type": "project",
+      "path": "../CleanArchMvc.Infra.IoC/CleanArchMvc.Infra.IoC.csproj",
+      "msbuildProject": "../CleanArchMvc.Infra.IoC/CleanArchMvc.Infra.IoC.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "CleanArchMvc.Application >= 1.0.0",
-      "CleanArchMvc.Domain >= 1.0.0",
-      "CleanArchMvc.Infra.Data >= 1.0.0"
+      "CleanArchMvc.Infra.IoC >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5779,14 +5797,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Application/CleanArchMvc.Application.csproj": {
-              "projectPath": "/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Application/CleanArchMvc.Application.csproj"
-            },
-            "/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Domain/CleanArchMvc.Domain.csproj": {
-              "projectPath": "/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Domain/CleanArchMvc.Domain.csproj"
-            },
-            "/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Infra.Data/CleanArchMvc.Infra.Data.csproj": {
-              "projectPath": "/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Infra.Data/CleanArchMvc.Infra.Data.csproj"
+            "/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Infra.IoC/CleanArchMvc.Infra.IoC.csproj": {
+              "projectPath": "/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Infra.IoC/CleanArchMvc.Infra.IoC.csproj"
             }
           }
         }

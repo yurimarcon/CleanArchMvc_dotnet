@@ -8,9 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "CleanArchMvc.WebUI/1.0.0": {
         "dependencies": {
-          "CleanArchMvc.Application": "1.0.0",
-          "CleanArchMvc.Domain": "1.0.0",
-          "CleanArchMvc.Infra.Data": "1.0.0"
+          "CleanArchMvc.Infra.IoC": "1.0.0"
         },
         "runtime": {
           "CleanArchMvc.WebUI.dll": {}
@@ -998,6 +996,16 @@
         "runtime": {
           "CleanArchMvc.Infra.Data.dll": {}
         }
+      },
+      "CleanArchMvc.Infra.IoC/1.0.0": {
+        "dependencies": {
+          "CleanArchMvc.Application": "1.0.0",
+          "CleanArchMvc.Domain": "1.0.0",
+          "CleanArchMvc.Infra.Data": "1.0.0"
+        },
+        "runtime": {
+          "CleanArchMvc.Infra.IoC.dll": {}
+        }
       }
     }
   },
@@ -1676,6 +1684,11 @@
       "sha512": ""
     },
     "CleanArchMvc.Infra.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CleanArchMvc.Infra.IoC/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
