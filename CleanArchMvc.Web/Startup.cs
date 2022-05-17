@@ -37,7 +37,7 @@ public class Startup
         {
             endpoints.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Products}/{action=Index}/{id?}");
+                pattern: "{controller=Categories}/{action=Index}/{id?}");
         });
     }
 }
