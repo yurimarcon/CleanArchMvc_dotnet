@@ -13,26 +13,33 @@ namespace CleanArchMvc.Infra.Data.Repositories
         {
             _context = context;
         }
-
-        public async Task<Product> Create(Product product)
+        public async Task<IEnumerable<Product>> GetProductAsync()
         {
-            _context.Add(product);
-            await _context.SaveChangesAsync();
-            return product;
+            return await _context.Products.ToListAsync();
         }
-
         public async Task<Product> GetByIdAsync(int? id)
         {
             // eager loading
             return await _context.Products.Include(p => p.Category)
                 .SingleOrDefaultAsync(p => p.Id == id);
         }
-
-        public async Task<IEnumerable<Product>> GetCategoriesAsync()
+        public async Task<IEnumerable<Product>> GetByCategoryAsync(int? id)
         {
-            return await _context.Products.ToListAsync();
+            return await _context.Products.Include(p => p.Category)
+                .Where(p => p.CategoryId == id).ToListAsync();
         }
-
+        public async Task<Product> Create(Product product)
+        {
+            _context.Add(product);
+            await _context.SaveChangesAsync();
+            return product;
+        }
+        public async Task<Product> Update(Product product)
+        {
+            _context.Update(product);
+            await _context.SaveChangesAsync();
+            return product;
+        }
         public async Task<Product> Delete(Product product)
         {
             _context.Remove(product);
@@ -40,11 +47,5 @@ namespace CleanArchMvc.Infra.Data.Repositories
             return product;
         }
 
-        public async Task<Product> Update(Product product)
-        {
-            _context.Update(product);
-            await _context.SaveChangesAsync();
-            return product;
-        }
     }
 }
