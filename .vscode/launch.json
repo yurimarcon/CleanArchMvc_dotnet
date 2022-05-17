@@ -9,9 +9,9 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/CleanArchMvc.WebUI/bin/Debug/net6.0/CleanArchMvc.WebUI.dll",
+            "program": "${workspaceFolder}/CleanArchMvc.Web/bin/Debug/net6.0/CleanArchMvc.Web.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/CleanArchMvc.WebUI",
+            "cwd": "${workspaceFolder}/CleanArchMvc.Web",
             "stopAtEntry": false,
             "serverReadyAction": {
                 "action": "openExternally",

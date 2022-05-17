@@ -39,5 +39,4 @@ public class ProductUnitTest1
             .Throw<CleanArchMvc.Domain.Validation.DomainExceptionValidation>()
             .WithMessage("Product name must be more than 3 characters.");
     }
-    
 }

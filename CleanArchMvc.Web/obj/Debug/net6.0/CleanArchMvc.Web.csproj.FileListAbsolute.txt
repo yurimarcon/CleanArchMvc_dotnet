@@ -69,3 +69,8 @@
 /home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Web/obj/Debug/net6.0/CleanArchMvc.Web.pdb
 /home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Web/obj/Debug/net6.0/CleanArchMvc.Web.genruntimeconfig.cache
 /home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Web/obj/Debug/net6.0/ref/CleanArchMvc.Web.dll
+/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Web/bin/Debug/net6.0/Humanizer.dll
+/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Web/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Web/bin/Debug/net6.0/AutoMapper.dll
+/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Web/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Web/bin/Debug/net6.0/mono_crash.2207df118e.0.json

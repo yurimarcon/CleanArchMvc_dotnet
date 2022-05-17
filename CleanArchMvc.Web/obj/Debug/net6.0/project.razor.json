@@ -16298,8 +16298,8 @@
   "RootNamespace": "CleanArchMvc.Web",
   "Documents": [
     {
-      "FilePath": "/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Web/Views/Home/Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FilePath": "/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Web/Views/Products/Index.cshtml",
+      "TargetPath": "Views\\Products\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16318,6 +16318,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Web/Views/Categories/Index.cshtml",
+      "TargetPath": "Views\\Categories\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Web/Views/_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -16325,11 +16330,6 @@
     {
       "FilePath": "/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Web/Views/_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Web/Views/Home/Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     }
   ],
