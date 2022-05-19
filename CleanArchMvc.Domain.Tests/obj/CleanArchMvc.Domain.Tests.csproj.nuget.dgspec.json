@@ -47,11 +47,11 @@
           "dependencies": {
             "FluentAssertions": {
               "target": "Package",
-              "version": "[5.10.3, )"
+              "version": "[6.6.0, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[17.1.0, )"
+              "version": "[17.2.0, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -67,7 +67,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.4.3, )"
+              "version": "[2.4.5, )"
             }
           },
           "imports": [
@@ -181,19 +181,19 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "None",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.4, )"
+              "version": "[6.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.4, )"
+              "version": "[6.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.4, )"
+              "version": "[6.0.5, )"
             }
           },
           "imports": [

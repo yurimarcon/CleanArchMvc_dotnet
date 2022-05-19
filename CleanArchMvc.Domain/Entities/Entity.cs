@@ -2,6 +2,6 @@ namespace CleanArchMvc.Domain.Entities
 {
     public class Entity
     {
-        public int Id { get; protected set; }
+        public int? Id { get; set; }
     }
 } 

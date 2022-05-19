@@ -21,7 +21,7 @@ namespace CleanArchMvc.Web.Controllers
         }
 
         [HttpGet]
-        public IActionResult Create(int id)
+        public IActionResult Create()
         {
             return View();
         }
@@ -34,7 +34,7 @@ namespace CleanArchMvc.Web.Controllers
                 await _categoryService.Add(category);
                 return RedirectToAction("Index");
             }
-            return View();
+            return View(category);
         }
     }
 }

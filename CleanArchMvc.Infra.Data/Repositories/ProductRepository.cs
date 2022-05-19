@@ -17,17 +17,17 @@ namespace CleanArchMvc.Infra.Data.Repositories
         {
             return await _context.Products.ToListAsync();
         }
-        public async Task<Product> GetByIdAsync(int? id)
+        public async Task<Product> GetByIdAsync(int id)
         {
             // eager loading
             return await _context.Products.Include(p => p.Category)
                 .SingleOrDefaultAsync(p => p.Id == id);
         }
-        public async Task<IEnumerable<Product>> GetByCategoryAsync(int? id)
-        {
-            return await _context.Products.Include(p => p.Category)
-                .Where(p => p.CategoryId == id).ToListAsync();
-        }
+        // public async Task<IEnumerable<Product>> GetByCategoryAsync(int id)
+        // {
+        //     return await _context.Products.Include(p => p.Category)
+        //         .Where(p => p.CategoryId == id).ToListAsync();
+        // }
         public async Task<Product> Create(Product product)
         {
             _context.Add(product);

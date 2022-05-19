@@ -17,5 +17,3 @@
 /home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Infra.IoC/obj/Debug/net6.0/refint/CleanArchMvc.Infra.IoC.dll
 /home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Infra.IoC/obj/Debug/net6.0/CleanArchMvc.Infra.IoC.pdb
 /home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Infra.IoC/obj/Debug/net6.0/ref/CleanArchMvc.Infra.IoC.dll
-/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Infra.IoC/bin/Debug/net6.0/CleanArchMvc.Infra.IoC.runtimeconfig.json
-/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Infra.IoC/obj/Debug/net6.0/CleanArchMvc.Infra.IoC.genruntimeconfig.cache
