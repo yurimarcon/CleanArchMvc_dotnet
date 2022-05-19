@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "RW0NlPzYU87Rchq91EI3AHQ5DuSNGWmHDuv8YXqbP/zAIFZKG4x7pmNO4qOPC+OSlJrfp8t+hMXcXpD2lR2tkQ==",
+  "dgSpecHash": "UEx5817V9o5pcd9PiZ7BgAPoSBFLoLsa+AeO4FHF3w8WOG7E9/PL3IZa9YxvuLm+jH0sB4ceeqSmpJc0vhxAzQ==",
   "success": true,
   "projectFilePath": "/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Web/CleanArchMvc.Web.csproj",
   "expectedPackageFiles": [
     "/home/yuri/.nuget/packages/automapper/11.0.1/automapper.11.0.1.nupkg.sha512",
     "/home/yuri/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/11.0.0/automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "/home/yuri/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/home/yuri/.nuget/packages/mediatr/10.0.1/mediatr.10.0.1.nupkg.sha512",
     "/home/yuri/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
     "/home/yuri/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/10.0.1/mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
@@ -15,6 +16,7 @@
     "/home/yuri/.nuget/packages/microsoft.entityframeworkcore/6.0.5/microsoft.entityframeworkcore.6.0.5.nupkg.sha512",
     "/home/yuri/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.5/microsoft.entityframeworkcore.abstractions.6.0.5.nupkg.sha512",
     "/home/yuri/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.5/microsoft.entityframeworkcore.analyzers.6.0.5.nupkg.sha512",
+    "/home/yuri/.nuget/packages/microsoft.entityframeworkcore.design/6.0.5/microsoft.entityframeworkcore.design.6.0.5.nupkg.sha512",
     "/home/yuri/.nuget/packages/microsoft.entityframeworkcore.relational/6.0.5/microsoft.entityframeworkcore.relational.6.0.5.nupkg.sha512",
     "/home/yuri/.nuget/packages/microsoft.entityframeworkcore.sqlserver/6.0.5/microsoft.entityframeworkcore.sqlserver.6.0.5.nupkg.sha512",
     "/home/yuri/.nuget/packages/microsoft.extensions.caching.abstractions/6.0.0/microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",

@@ -61,7 +61,7 @@ namespace CleanArchMvc.Application.Services
 
         public async Task Update(ProductDTO product)
         {
-            var productEntity = _mapper.Map<ProductCreateCommand>(product);
+            var productEntity = _mapper.Map<ProductUpdateCommand>(product);
             await _mediator.Send(productEntity);
         }
 

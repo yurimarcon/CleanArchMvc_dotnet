@@ -37,6 +37,14 @@
           }
         }
       },
+      "Humanizer.Core/2.8.26": {
+        "runtime": {
+          "lib/netstandard2.0/Humanizer.dll": {
+            "assemblyVersion": "2.8.0.0",
+            "fileVersion": "2.8.26.1919"
+          }
+        }
+      },
       "MediatR/10.0.1": {
         "dependencies": {
           "MediatR.Contracts": "1.0.1"
@@ -153,6 +161,18 @@
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/6.0.5": {},
+      "Microsoft.EntityFrameworkCore.Design/6.0.5": {
+        "dependencies": {
+          "Humanizer.Core": "2.8.26",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.5"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll": {
+            "assemblyVersion": "6.0.5.0",
+            "fileVersion": "6.0.522.21804"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/6.0.5": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "6.0.5",
@@ -478,6 +498,7 @@
       "CleanArchMvc.Infra.Data/1.0.0": {
         "dependencies": {
           "CleanArchMvc.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore.Design": "6.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.5"
         },
         "runtime": {
@@ -517,6 +538,13 @@
       "sha512": "sha512-0asw5WxdCFh2OTi9Gv+oKyH9SzxwYQSnO8TV5Dd0GggovILzJW4UimP26JAcxc3yB5NnC5urooZ1BBs8ElpiBw==",
       "path": "automapper.extensions.microsoft.dependencyinjection/11.0.0",
       "hashPath": "automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512"
+    },
+    "Humanizer.Core/2.8.26": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
+      "path": "humanizer.core/2.8.26",
+      "hashPath": "humanizer.core.2.8.26.nupkg.sha512"
     },
     "MediatR/10.0.1": {
       "type": "package",
@@ -580,6 +608,13 @@
       "sha512": "sha512-QUeDIhs+O+MoDEc3k60mNyVDbwyDURCqZQlZoKShuZUcSfXSrDMbHKuFSxBIDNQBt092qSjfnwf7w0Ua/IB3Zw==",
       "path": "microsoft.entityframeworkcore.analyzers/6.0.5",
       "hashPath": "microsoft.entityframeworkcore.analyzers.6.0.5.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Design/6.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zNjMWJ6MJ/Qm7S6wFBqVgn7DEpilbDMy0xgA7c4Y1yY9/LoaC2pWwWO4ePaYoPCZpLx/eTViWEr5ZXta/vK//Q==",
+      "path": "microsoft.entityframeworkcore.design/6.0.5",
+      "hashPath": "microsoft.entityframeworkcore.design.6.0.5.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.Relational/6.0.5": {
       "type": "package",

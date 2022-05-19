@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "OUuqIA4j0+ET/SDgIkQgz/RkdKnMHNo12svDKgpto/NhysoZdT2aeEfkFwuYaAVvCfsoaSQbm8CUZMFp9hoDNQ==",
+  "dgSpecHash": "yFMKpEMJq4g21wnN0iFVT+Rf83mgfYQJuNbeOOjVG/dSWMNAK6+GXbgMWpkd4Xv/Jzzq8CCBMS48kp1qhPy5Ww==",
   "success": true,
   "projectFilePath": "/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Domain.Tests/CleanArchMvc.Domain.Tests.csproj",
   "expectedPackageFiles": [
     "/home/yuri/.nuget/packages/coverlet.collector/3.1.2/coverlet.collector.3.1.2.nupkg.sha512",
     "/home/yuri/.nuget/packages/fluentassertions/6.6.0/fluentassertions.6.6.0.nupkg.sha512",
+    "/home/yuri/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/home/yuri/.nuget/packages/microsoft.codecoverage/17.2.0/microsoft.codecoverage.17.2.0.nupkg.sha512",
     "/home/yuri/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/home/yuri/.nuget/packages/microsoft.data.sqlclient/2.1.4/microsoft.data.sqlclient.2.1.4.nupkg.sha512",
@@ -13,6 +14,7 @@
     "/home/yuri/.nuget/packages/microsoft.entityframeworkcore/6.0.5/microsoft.entityframeworkcore.6.0.5.nupkg.sha512",
     "/home/yuri/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.5/microsoft.entityframeworkcore.abstractions.6.0.5.nupkg.sha512",
     "/home/yuri/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.5/microsoft.entityframeworkcore.analyzers.6.0.5.nupkg.sha512",
+    "/home/yuri/.nuget/packages/microsoft.entityframeworkcore.design/6.0.5/microsoft.entityframeworkcore.design.6.0.5.nupkg.sha512",
     "/home/yuri/.nuget/packages/microsoft.entityframeworkcore.relational/6.0.5/microsoft.entityframeworkcore.relational.6.0.5.nupkg.sha512",
     "/home/yuri/.nuget/packages/microsoft.entityframeworkcore.sqlserver/6.0.5/microsoft.entityframeworkcore.sqlserver.6.0.5.nupkg.sha512",
     "/home/yuri/.nuget/packages/microsoft.extensions.caching.abstractions/6.0.0/microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",

@@ -142,3 +142,5 @@
 /home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Domain.Tests/obj/Debug/net6.0/CleanArchMvc.Domain.Tests.pdb
 /home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Domain.Tests/obj/Debug/net6.0/CleanArchMvc.Domain.Tests.genruntimeconfig.cache
 /home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Domain.Tests/obj/Debug/net6.0/ref/CleanArchMvc.Domain.Tests.dll
+/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Domain.Tests/bin/Debug/net6.0/Humanizer.dll
+/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Domain.Tests/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "04ecDK++UK4gnJiJ7BVzwBw5K6gvL2FlaY+5KIz0NAyublhxoKGl3JElfG1oviJuL8nfmf5MVj7hDA4UZnZ7pg==",
+  "dgSpecHash": "Hg+G8D5W67+ExxpdRclf+dRLu8/Gc/mCrWC3/WzLpv9S1p3Fr/LtGQvCxQSjjYsJ8I8fBb9OdXzLpJqDuJ2ucA==",
   "success": true,
   "projectFilePath": "/home/yuri/Documentos/projetos/curso_cleanarqMVC/CleanArchMvc.Infra.IoC/CleanArchMvc.Infra.IoC.csproj",
   "expectedPackageFiles": [
     "/home/yuri/.nuget/packages/automapper/11.0.1/automapper.11.0.1.nupkg.sha512",
     "/home/yuri/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/11.0.0/automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "/home/yuri/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/home/yuri/.nuget/packages/mediatr/10.0.1/mediatr.10.0.1.nupkg.sha512",
     "/home/yuri/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
     "/home/yuri/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/10.0.1/mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
@@ -15,6 +16,7 @@
     "/home/yuri/.nuget/packages/microsoft.entityframeworkcore/6.0.5/microsoft.entityframeworkcore.6.0.5.nupkg.sha512",
     "/home/yuri/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.5/microsoft.entityframeworkcore.abstractions.6.0.5.nupkg.sha512",
     "/home/yuri/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.5/microsoft.entityframeworkcore.analyzers.6.0.5.nupkg.sha512",
+    "/home/yuri/.nuget/packages/microsoft.entityframeworkcore.design/6.0.5/microsoft.entityframeworkcore.design.6.0.5.nupkg.sha512",
     "/home/yuri/.nuget/packages/microsoft.entityframeworkcore.relational/6.0.5/microsoft.entityframeworkcore.relational.6.0.5.nupkg.sha512",
     "/home/yuri/.nuget/packages/microsoft.entityframeworkcore.sqlserver/6.0.5/microsoft.entityframeworkcore.sqlserver.6.0.5.nupkg.sha512",
     "/home/yuri/.nuget/packages/microsoft.extensions.caching.abstractions/6.0.0/microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
